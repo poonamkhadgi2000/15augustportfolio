@@ -1,0 +1,407 @@
+@media screen and (min-width:200px) and (max-width:500px) {
+
+    /* header section css start here  */
+
+    nav {
+        display: none;
+    }
+
+    .nav__left {
+        width: 80vw;
+
+
+    }
+
+    .nav__right {
+        width: 80vw;
+
+    }
+
+    section {
+        height: 70vh;
+    }
+
+    .section__profile_img img {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .section__profile h3 {
+        width: 90vw;
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+    /* about section css start here  */
+    .about__section {
+        padding: 0px;
+    }
+
+    .about__down {
+        flex-direction: column;
+
+    }
+
+    .about_top_about {
+        text-align: center;
+        font-size: 20px;
+
+    }
+
+    .about__down_img {
+        width: 50vw;
+        align-items: center;
+
+    }
+
+    .about__down_img img {
+        width: 200px;
+        height: 220px;
+
+    }
+
+    .about__down_text_sec {
+        width: 90vw;
+        padding: 40px;
+    }
+
+    .about__down_text_sec h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .about__down_text_sec p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /* skill section css start here  */
+
+    .skill_bottom_box {
+        width: 38vw;
+
+    }
+
+    .skill_icon i {
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .project_box {
+        width: 80vw;
+    }
+
+    .project_box_use-tools {
+        width: 80vw;
+
+    }
+
+    /* contact section css start here  */
+
+    .contact {
+        width: 90vw;
+    }
+
+    .contact__left {
+        width: 70vw;
+    }
+
+    .conatct__bottom {
+        flex-direction: column;
+    }
+
+    .contact__right {
+        width: 80vw;
+        padding: 5px;
+    }
+
+    .contact__right_input_box {
+        width: 80vw;
+    }
+
+    .contact__right_input_name input {
+        width: 70vw;
+    }
+
+    .contact__right_input_email input {
+        width: 70vw;
+    }
+
+    .contact__right_input_subject input {
+        width: 70vw;
+    }
+
+    .contact__right_input_message textarea {
+        width: 70vw;
+
+    }
+
+    .contact__right_input_button button {
+        width: 40vw;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .footer__box {
+        font-size: 11px;
+    }
+}
+
+/* start here max-width 700px  */
+
+@media screen and (min-width:501px) and (max-width:800px) {
+    nav {
+        width: 80vw;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .nav__left {
+        width: 75vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav__left_logo {
+        width: 63vw;
+
+    }
+
+    .nav__left_box h1 {
+        font-size: 28px;
+    }
+
+    .nav__right {
+        width: 75vw;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .nav__right_box {
+        width: 75vw;
+    }
+
+    /* about section start here css  */
+
+    .section__profile {
+        width: 80vw;
+
+    }
+
+    .section_profile_skill h3 {
+        font-size: 20px;
+    }
+
+    /* about  section start here  */
+
+    .about_top_about {
+        text-align: center;
+    }
+
+    .about__down_img {
+        width: 70vw;
+        flex-direction: column;
+    }
+
+    .about {
+        width: 80vw;
+    }
+
+    .about__top {
+        width: 80vw;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__down {
+        width: 80vw;
+        flex-direction: column;
+
+    }
+
+    .about__down_img {
+        width: 80vw;
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .about__down_img img {
+        width: 250px;
+
+
+    }
+
+    .about__down_text_sec {
+        width: 80vw;
+    }
+
+    .about__down_text_sec h2 {
+        width: 80vw;
+        font-size: 20px;
+    }
+
+    .about__down_text_sec p {
+        font-size: 16px;
+    }
+
+    /* skill section start here media  */
+
+    .skill {
+        width: 80vw;
+
+    }
+
+    .skill_bottom {
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .skill_bottom_box {
+        width: 35vw;
+        /* flex-wrap: wrap; */
+
+    }
+
+    .skill_bottom_box i {
+        font-size: 60px;
+        padding: 25px;
+    }
+
+    /* project section start here  */
+
+    .project {
+        width: 90vw;
+        padding: 0px;
+    }
+
+    .project_right {
+        width: 90vw;
+    }
+
+    .project_box {
+        width: 86vw;
+    }
+
+    .project_box_use-tools {
+        width: 85vw;
+
+    }
+
+
+
+    /* contact section start here  */
+
+    .contact__section {
+        width: 90vw;
+    }
+
+    .contact__top {
+        width: 90vw;
+    }
+
+    .conatct__bottom {
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact__left {
+        width: 60vw;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .conatct__profile_box a {
+        width: 60vw;
+        font-size: 20px;
+    }
+
+    .contact__right {
+
+        width: 60vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact__right_input_box input {
+        width: 50vw;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    .contact__right_input_box textarea {
+        width: 50vw;
+        height: 13vh;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    .contact__right_input_button button {
+        width: 40vw;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .footer__box {
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (min-width:801px) and (max-width:1100px) {
+    .about__down {
+        width: 80vw;
+    }
+
+    .about__down_img {
+        width: 20vw;
+    }
+    .about__down_img img{
+        width: 180px;
+        height: 220px;
+    }
+
+    .about__down_text_sec {
+        width: 60vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {}  */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */
